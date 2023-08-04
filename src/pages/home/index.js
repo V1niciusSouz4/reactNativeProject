@@ -6,7 +6,7 @@ import { Logo } from '../../components/logo'
 
 export function Home(){
 
-    const [inputValue, setInputValue] = useState()
+    const [inputValue, setInputValue] = useState("")
 
     function handleSearch(){
         
@@ -23,6 +23,8 @@ export function Home(){
                 <TextInput 
                 placeholder='Digite o nome da comida...'
                 style={styles.input}
+                value={inputValue}
+                onChangeText={(text) => setInputValue(text)}
                 />
                 <TouchableOpacity onPress={handleSearch}>
                     <Ionicons name="search" size={28} color="#4EBE6C"/>
