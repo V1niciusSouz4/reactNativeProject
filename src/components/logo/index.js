@@ -3,7 +3,7 @@ import {View, Text, StyleSheet} from 'react-native'
 export function Logo( ) {
     return (
         <View style={styles.logoArea}>
-            <Text style={styles.logo}>Vitor Sacz!</Text>
+            <Text style={styles.logo}>Receitas insanas</Text>
         </View>
     )
 }
