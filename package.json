@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "dev": "npx json-server --watch -d 180 --host 192.168.35.222 db.json",
+    "dev": "npx json-server --watch -d 180 --host 192.168.32.222 db.json",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
